@@ -71,5 +71,31 @@
     font-weight: 400;
 }
 
+.review {
+    background-color: #EFEFEF;
+}
+
+.review__content {
+    padding: 91px 38px 111px;
+}
+
+.review-title {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 34px;
+}
+
+.review-block {
+    padding: 40px 25px 29px;
+}
+
+.review-text {
+    padding: 0 20px;
+}
+
+
 
 
