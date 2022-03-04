@@ -145,6 +145,89 @@
     height: 31px;
 }
 
+@media screen and (max-width: 834px) {
+
+    .container {
+        padding: 0 50px;
+    }
+
+    .program__content {
+        padding: 70px 0 50px 0;
+    }
+    
+    .program-title {
+        font-size: 32px;
+        margin-bottom: 75px;
+    }
+
+    .program-cards {
+        grid-template-columns: repeat(auto-fill, 231px);
+    }
+
+    .program-card {
+        width: 231px;
+        height: 190px;
+        margin-bottom: 24px;
+    }
+
+    .card-img {
+        width: 231px;
+        height: 92px;
+    }
+
+    .card-img img{
+        width: 231px;
+        height: 92px;
+    }
+
+    .card-title {
+        font-size: 17px;
+    }
+
+    .card-description {
+        height: 97px;
+        padding: 8px 11px 13px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+
+    .review__content {
+        padding: 52px 0 64px;
+    }
+
+    .review-title {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .review-block {
+        width: 458px;
+        height: 261px;
+        padding: 23px 6px 16px;
+    }
+
+    .review-text {
+        font-size: 12px;
+    }
+
+    .reviewer-img {
+        width: 110px;
+        height: 98px;
+    }
+
+    .reviewer-title {
+        font-size: 17px;
+    }
+
+    .reviewer-link img{
+        width: 18px;
+        height: 18px;
+    }
+
+}
+
 
 
 
