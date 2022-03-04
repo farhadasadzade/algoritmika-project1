@@ -24,6 +24,10 @@
 .program-cards {    
     display: grid;
     grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    justify-items: center;
+    align-content: space-between;
+    align-items: center;
 }
 
 .program-card {
