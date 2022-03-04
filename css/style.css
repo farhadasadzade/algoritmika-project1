@@ -56,7 +56,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card-title {
@@ -110,6 +110,7 @@
 }
 
 .review-text {
+    white-space: normal;
     padding: 0 20px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -168,6 +169,7 @@
         width: 231px;
         height: 190px;
         margin-bottom: 24px;
+        border-radius: 18px;
     }
 
     .card-img {
@@ -224,6 +226,94 @@
     .reviewer-link img{
         width: 18px;
         height: 18px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .container {
+        padding: 0 34px;
+    }
+
+    .program__content {
+        padding: 42px 0 47px 0;
+    }
+    
+    .program-title {
+        font-size: 26px;
+        margin-bottom: 52px;
+    }
+
+    .program-cards {
+        grid-template-columns: repeat(auto-fill, 186px);
+        justify-content: center;
+    }
+
+    .program-card {
+        width: 186px;
+        height: 153px;
+        margin-bottom: 24px;
+        border-radius: 14px;
+    }
+
+    .card-img {
+        width: 186px;
+        height: 74px;
+    }
+
+    .card-img img{
+        width: 186px;
+        height: 74px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-description {
+        height: 78px;
+        padding: 5px 9px 10px 6px;
+    }
+
+    .card-text {
+        font-size: 12px;
+    }
+
+    .review__content {
+        padding: 17px 0 28px;
+    }
+
+    .review-title {
+        font-size: 26px;
+        margin-bottom: 28px;
+    }
+
+    .review-block {
+        width: 308px;
+        height: 248px;
+        padding: 18px 21px 13px;
+    }
+
+    .review-text {
+        display: block;
+        font-size: 10px;
+        padding: 0;
+    }
+
+    .reviewer-img {
+        width: 80px;
+        height: 84px;
+        margin-right: 14px;
+    }
+
+    .reviewer-title {
+        font-size: 14px;
+    }
+
+    .reviewer-link img{
+        width: 15px;
+        height: 15px;
     }
 
 }
