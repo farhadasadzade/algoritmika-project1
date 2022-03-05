@@ -7,3 +7,64 @@
     padding: 0 84px;
     margin: 0 auto;
 }
+.format{
+    padding: 81px 37px 120px;
+
+}
+
+
+.format-title{
+    margin-bottom: 137px;
+    font-family: "Roboto Slab" ,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    color: #000;
+
+}
+.format-items{
+    display: flex;
+}
+.format-item{
+    margin-right: 115px;
+}
+.format-item-title{
+    font-family: "Roboto" ,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color:  #1E4681;
+    margin-bottom: 15px;
+}
+.format-item-text{
+    font-family: "Roboto" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    width: 250px;
+}
+.learn{
+    padding: 120px 37px;
+}
+.learn-title{
+    font-family: "Roboto Slab" ,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 59px;
+    color: #000;
+}
+.learn-list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    list-style: disc;
+    padding-left: 10px;
+    width: 662px;
+}
