@@ -14,10 +14,16 @@
 
 .program-title {
     font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 95px;
+    padding: 0 37px;
 }
+
 .format{
     padding: 81px 37px 120px;
-
 }
 
 
@@ -92,7 +98,12 @@
 
 .review-title {
     font-family: 'Roboto Slab', serif;
-    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 72px;
+    padding-left: 18px;
 }
 .format-items{
     display: flex;
@@ -197,7 +208,7 @@
     line-height: 150%;
     list-style: disc;
     padding-left: 10px;
-    width: 662px;
+    width: 60%;
 }
 
 /* SCROLLBAR */
@@ -219,7 +230,7 @@
 	background-color: #000000;
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 835px) {
 
     .container {
         padding: 0 50px;
@@ -236,7 +247,7 @@
 
     .program-cards {
         grid-template-columns: repeat(auto-fill, 231px);
-        justify-content: center;
+        justify-content: space-around;
     }
 
     .program-card {
@@ -304,7 +315,7 @@
 
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
 
     .container {
         padding: 0 34px;
@@ -315,6 +326,7 @@
     }
     
     .program-title {
+        padding-left: 0;
         font-size: 26px;
         margin-bottom: 52px;
     }
@@ -358,6 +370,7 @@
     }
 
     .review-title {
+        padding-left: 0;
         font-size: 26px;
         margin-bottom: 28px;
     }
@@ -429,7 +442,7 @@
     }
     .learn-list{
         font-size: 14px;
-        width: 385px;
+        width: 92%;
     }
 }
 @media screen and (max-width: 376px) {
@@ -466,6 +479,6 @@
     }
     .learn-list{
         font-size: 12px;
-        width: 310px;
+        width: 92%;
     }
 }
