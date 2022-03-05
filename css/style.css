@@ -25,9 +25,11 @@
 }
 .format-items{
     display: flex;
+    flex-wrap: wrap;
 }
 .format-item{
     margin-right: 115px;
+    margin-bottom: 10px;
 }
 .format-item-title{
     font-family: "Roboto" ,sans-serif;
@@ -67,4 +69,82 @@
     list-style: disc;
     padding-left: 10px;
     width: 662px;
+}
+@media screen and (max-width: 835px) {
+    .container{
+        padding: 0 34px;
+    }
+    .format-title{
+        font-size: 32px;
+        margin-bottom: 72px;
+    }
+    .format-item{
+       
+        margin-right: 45px;
+    }
+    .format-item-title{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .format-item-text{
+        width: 154px;
+        font-size: 11px;
+
+    }
+    .format{
+        padding: 47px 0px 72px;
+
+    }
+    .format-items{
+        flex-wrap: wrap;
+    }
+    .learn{
+        padding: 72px 0px;
+
+    }
+    .learn-title{
+        font-size: 32px;
+        margin-bottom: 34px; 
+    }
+    .learn-list{
+        font-size: 14px;
+        width: 385px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .container{
+        padding: 0 14px;
+    }
+    .format{
+        padding: 38px 0px 36px;
+    }
+    .format-title{
+        font-size: 26px;
+        margin-bottom: 33px;
+    }
+    .format-items{
+        flex-direction: column;
+    }
+    .format-item{
+        margin-bottom: 20px;
+    }
+    .format-item-title{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+    .format-item-text{
+        font-size: 10px;
+        width: 180px;
+    }
+    .learn{
+        padding: 37px 0px;
+    }
+    .learn-title{
+        font-size: 26px;
+        margin-bottom: 27px;
+    }
+    .learn-list{
+        font-size: 12px;
+        width: 310px;
+    }
 }
