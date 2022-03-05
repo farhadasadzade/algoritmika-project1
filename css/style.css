@@ -8,28 +8,94 @@
     margin: 0 auto;
 }
 
+.format{
+    background-color: #ffffff;
+}
+
+.format_content {
+    padding: 81px 37px 120px;
+}
+
+.format-title{
+    margin-bottom: 137px;
+    font-family: "Roboto Slab" ,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 95px;
+}
+
+.format-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.format-item{
+    margin-bottom: 10px;
+}
+
+.format-item:first-child {
+    margin-right: 122px;
+}
+
+.format-item:nth-child(2) {
+    margin-right: 113px;
+}
+
+.format-item-title{
+    font-family: "Roboto" ,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color:  #1E4681;
+    margin-bottom: 15px;
+}
+
+.format-item-text{
+    font-family: "Roboto" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    width: 250px;
+}
+
+.learn{
+    background-color: #ffffff;
+}
+
+.learn-content {
+    padding: 120px 37px;
+}
+
+.learn-title{
+    font-family: "Roboto Slab" ,serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin-bottom: 72px;
+}
+
+.learn-list{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    list-style: disc;
+    padding-left: 25px;
+    width: 60%;
+}
+
 .program__content {
     padding: 124px 0;
 }
 
 .program-title {
     font-family: 'Roboto Slab', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    margin-bottom: 95px;
-    padding: 0 37px;
-}
-
-.format{
-    padding: 81px 37px 120px;
-}
-
-
-.format-title{
-    margin-bottom: 137px;
-    font-family: "Roboto Slab" ,serif;
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
@@ -93,7 +159,7 @@
 }
 
 .review__content {
-    padding: 91px 38px 111px 18px;
+    padding: 91px 37px 111px 18px;
 }
 
 .review-title {
@@ -103,44 +169,7 @@
     font-size: 55px;
     line-height: 101.38%;
     margin-bottom: 72px;
-    padding-left: 18px;
-}
-.format-items{
-    display: flex;
-    flex-wrap: wrap;
-}
-.format-item{
-    margin-right: 115px;
-    margin-bottom: 10px;
-}
-.format-item-title{
-    font-family: "Roboto" ,sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 130%;
-    color:  #1E4681;
-    margin-bottom: 15px;
-}
-.format-item-text{
-    font-family: "Roboto" , sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 130%;
-    width: 250px;
-}
-.learn{
-    padding: 120px 37px;
-}
-.learn-title{
-    font-family: "Roboto Slab" ,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    margin-bottom: 72px;
-    padding-left: 18px;
+    padding-left: 19px;
 }
 
 .reviews {
@@ -200,17 +229,6 @@
     height: 31px;
 }
 
-.learn-list{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 150%;
-    list-style: disc;
-    padding-left: 10px;
-    width: 60%;
-}
-
 /* SCROLLBAR */
 .reviews::-webkit-scrollbar-track
 {
@@ -233,7 +251,54 @@
 @media screen and (max-width: 835px) {
 
     .container {
-        padding: 0 50px;
+        padding: 0 47px;
+    }
+
+    .format_content {
+        padding: 47px 23px 72px;
+    }
+
+    .format-title{
+        font-size: 32px;
+        margin-bottom: 72px;
+    }
+    
+    .format-item:first-child {
+        margin-right: 46px;
+    }
+    
+    .format-item:nth-child(2) {
+        margin-right: 51px;
+    }
+
+    .format-item-title{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+
+    .format-item-text{
+        width: 154px;
+        font-size: 11px;
+
+    }
+
+    .format-items{
+        flex-wrap: wrap;
+    }
+
+    .learn-content {
+        padding: 72px 23px;
+    }
+
+    .learn-title{
+        font-size: 32px;
+        margin-bottom: 34px; 
+    }
+
+    .learn-list{
+        font-size: 14px;
+        width: 92%;
+        padding-left: 20px;
     }
 
     .program__content {
@@ -243,6 +308,7 @@
     .program-title {
         font-size: 32px;
         margin-bottom: 75px;
+        padding-left: 23px;
     }
 
     .program-cards {
@@ -281,7 +347,7 @@
     }
 
     .review__content {
-        padding: 52px 0 64px;
+        padding: 52px 23px 64px;
     }
 
     .review-title {
@@ -321,12 +387,45 @@
         padding: 0 34px;
     }
 
+    .format-title{
+        font-size: 26px;
+        margin-bottom: 33px;
+    }
+
+    .format-items{
+        flex-direction: column;
+    }
+
+    .format-item{
+        margin-bottom: 20px;
+    }
+
+    .format-item-title{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+
+    .format-item-text{
+        font-size: 10px;
+        width: 180px;
+    }
+
+    .learn-title{
+        font-size: 26px;
+        margin-bottom: 27px;
+    }
+
+    .learn-list{
+        font-size: 12px;
+        width: 92%;
+        padding-left: 15px;
+    }
+
     .program__content {
         padding: 42px 0 47px 0;
     }
     
     .program-title {
-        padding-left: 0;
         font-size: 26px;
         margin-bottom: 52px;
     }
@@ -402,83 +501,4 @@
         height: 15px;
     }
 
-}
-
-@media screen and (max-width: 835px) {
-    .container{
-        padding: 0 34px;
-    }
-    .format-title{
-        font-size: 32px;
-        margin-bottom: 72px;
-    }
-    .format-item{
-       
-        margin-right: 45px;
-    }
-    .format-item-title{
-        font-size: 15px;
-        margin-bottom: 8px;
-    }
-    .format-item-text{
-        width: 154px;
-        font-size: 11px;
-
-    }
-    .format{
-        padding: 47px 0px 72px;
-
-    }
-    .format-items{
-        flex-wrap: wrap;
-    }
-    .learn{
-        padding: 72px 0px;
-
-    }
-    .learn-title{
-        font-size: 32px;
-        margin-bottom: 34px; 
-    }
-    .learn-list{
-        font-size: 14px;
-        width: 92%;
-    }
-}
-@media screen and (max-width: 376px) {
-    .container{
-        padding: 0 14px;
-    }
-    .format{
-        padding: 38px 0px 36px;
-    }
-    .format-title{
-        font-size: 26px;
-        margin-bottom: 33px;
-    }
-    .format-items{
-        flex-direction: column;
-    }
-    .format-item{
-        margin-bottom: 20px;
-    }
-    .format-item-title{
-        font-size: 12px;
-        margin-bottom: 7px;
-    }
-    .format-item-text{
-        font-size: 10px;
-        width: 180px;
-    }
-    .learn{
-        padding: 37px 0px;
-    }
-    .learn-title{
-        font-size: 26px;
-        margin-bottom: 27px;
-    }
-    .learn-list{
-        font-size: 12px;
-        width: 92%;
-    }
 }
