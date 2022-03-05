@@ -25,7 +25,7 @@
 .program-cards {    
     display: grid;
     grid-template-columns: repeat(auto-fill, 399px);
-    justify-content: space-between;
+    justify-content: space-around;
     justify-items: center;
     align-content: space-between;
     align-items: center;
@@ -183,6 +183,7 @@
 
     .program-cards {
         grid-template-columns: repeat(auto-fill, 231px);
+        justify-content: center;
     }
 
     .program-card {
@@ -267,7 +268,6 @@
 
     .program-cards {
         grid-template-columns: repeat(auto-fill, 186px);
-        justify-content: center;
     }
 
     .program-card {
