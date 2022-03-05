@@ -7,6 +7,7 @@
     padding: 0 84px;
     margin: 0 auto;
 }
+<<<<<<< HEAD
 
 .program__content {
     padding: 124px 0;
@@ -14,10 +15,22 @@
 
 .program-title {
     font-family: 'Roboto Slab', serif;
+=======
+.format{
+    padding: 81px 37px 120px;
+
+}
+
+
+.format-title{
+    margin-bottom: 137px;
+    font-family: "Roboto Slab" ,serif;
+>>>>>>> origin/zeynal
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
+<<<<<<< HEAD
     margin-bottom: 95px;
     padding: 0 37px;
 }
@@ -82,10 +95,46 @@
 
 .review-title {
     font-family: 'Roboto Slab', serif;
+=======
+    color: #000;
+
+}
+.format-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.format-item{
+    margin-right: 115px;
+    margin-bottom: 10px;
+}
+.format-item-title{
+    font-family: "Roboto" ,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 130%;
+    color:  #1E4681;
+    margin-bottom: 15px;
+}
+.format-item-text{
+    font-family: "Roboto" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 130%;
+    width: 250px;
+}
+.learn{
+    padding: 120px 37px;
+}
+.learn-title{
+    font-family: "Roboto Slab" ,serif;
+>>>>>>> origin/zeynal
     font-style: normal;
     font-weight: bold;
     font-size: 55px;
     line-height: 101.38%;
+<<<<<<< HEAD
     margin-bottom: 72px;
     padding-left: 18px;
 }
@@ -341,3 +390,96 @@
 
 
 
+=======
+    margin-bottom: 59px;
+    color: #000;
+}
+.learn-list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    list-style: disc;
+    padding-left: 10px;
+    width: 662px;
+}
+@media screen and (max-width: 835px) {
+    .container{
+        padding: 0 34px;
+    }
+    .format-title{
+        font-size: 32px;
+        margin-bottom: 72px;
+    }
+    .format-item{
+       
+        margin-right: 45px;
+    }
+    .format-item-title{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .format-item-text{
+        width: 154px;
+        font-size: 11px;
+
+    }
+    .format{
+        padding: 47px 0px 72px;
+
+    }
+    .format-items{
+        flex-wrap: wrap;
+    }
+    .learn{
+        padding: 72px 0px;
+
+    }
+    .learn-title{
+        font-size: 32px;
+        margin-bottom: 34px; 
+    }
+    .learn-list{
+        font-size: 14px;
+        width: 385px;
+    }
+}
+@media screen and (max-width: 376px) {
+    .container{
+        padding: 0 14px;
+    }
+    .format{
+        padding: 38px 0px 36px;
+    }
+    .format-title{
+        font-size: 26px;
+        margin-bottom: 33px;
+    }
+    .format-items{
+        flex-direction: column;
+    }
+    .format-item{
+        margin-bottom: 20px;
+    }
+    .format-item-title{
+        font-size: 12px;
+        margin-bottom: 7px;
+    }
+    .format-item-text{
+        font-size: 10px;
+        width: 180px;
+    }
+    .learn{
+        padding: 37px 0px;
+    }
+    .learn-title{
+        font-size: 26px;
+        margin-bottom: 27px;
+    }
+    .learn-list{
+        font-size: 12px;
+        width: 310px;
+    }
+}
+>>>>>>> origin/zeynal
