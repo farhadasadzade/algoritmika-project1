@@ -432,6 +432,117 @@
 	line-height: 23.4px;
 }
 
+footer {
+    font-family: 'Roboto', sans-serif;
+}
+
+.befooter {
+    background-color: #9DC9C8;
+}
+
+.container__befooter{
+    padding-left: 38px;
+}
+.footer_head{
+    padding-top: 179px;
+    font-size: 55px;
+    font-weight: bold;
+    font-family:'Roboto Slab', serif;
+}
+.price-info{
+    font-size: 25px;
+    margin-top: 54px;
+    margin-bottom: 0;
+}
+.price{
+    font-size: 80px;
+    margin-top: 0;
+    padding-bottom: 47px;
+}
+.price-texts{
+    display: flex;
+}
+.price-text1, .price-text2{
+    display: block;
+    height: 70px;
+    width: 30%;
+    margin-bottom: 192px;
+}
+.price-text1{
+   margin-right: 5%; /**70px*/
+}
+.price-text2{
+    margin-right: 25%;
+}
+.info-header{
+    font-size: 25px;
+    padding-bottom: 9px;
+}
+.text{
+    font-size: 18px;  
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+
+.footer {
+    box-sizing: border-box;
+    background-color: #000000;
+    padding: 50px 0 45px 0;
+}
+
+.container__footer{
+    color: #FFFF ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-both{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 146px;
+}
+.footer-left{
+    display: flex; 
+    flex-direction: column;   
+    margin-left: 38px; 
+    width: 30%;
+    height: 100%;
+}
+.footer-copyright{
+    justify-self: flex-end;
+    font-size: 18px;
+    margin-left: 38px;
+}
+
+.phone_num{
+    display: flex;
+    margin-bottom: 10px;
+}
+.phone-img{
+    margin-right: 22px;
+}
+.mails{
+    display: flex;
+}
+.footer-logo{
+    margin-bottom: 30px;
+}
+.number{
+    font-size: 25px;
+}
+.mail{
+    font-size: 25px;
+}
+.mail-img{
+    margin-right: 22px ;
+}
+
 @media screen and (max-width: 835px) {
 
     .container {
@@ -603,6 +714,7 @@
     .review-title {
         font-size: 32px;
         margin-bottom: 40px;
+        padding-left: 0;
     }
 
     .review-block {
@@ -675,6 +787,91 @@
 	.additional-text {
 		font-size: 11px;
 	}
+
+    /*Befooter*/
+
+    .befooter {
+        padding-bottom: 107px;
+    }
+    .footer_head{
+        font-size: 32px;
+        padding-top: 100px; 
+    }
+    .container__befooter{
+        max-height: 400px;
+        padding-left: 23px;
+    }
+    .price-info{
+        font-size: 14px;
+    }
+    .price-texts{
+        max-height: 90px;
+    }
+    .price-text1, .price-text2{
+        width: 180px;
+    }
+    .price{
+        font-size: 46px;
+    }
+    .info-header{
+        font-size: 14px;
+    }
+    .text{
+        font-size: 10px;
+    }
+
+
+
+
+
+
+
+
+    /*FOOTER*/
+
+    .footer {
+        padding: 29px 0 26px 0;
+    }
+    .container__footer{
+        max-height: 240px;
+        padding-left: 23px;
+    }
+
+    .footer-social img{
+        height: 20px;
+        width: 20px;
+        margin-top: 17px;
+    }
+    .footer-logo img{
+        height: 32px;
+        width: 54;
+    }
+    .last-copyright{
+        font-size: 10px;
+    }
+    .phone-number, .mail{
+        font-size: 14px;
+        width: 140px;
+    }
+    .footer-both{
+        margin-bottom: 84px;
+    }
+
+    .footer-left {
+        margin-left: 0;
+    }
+
+    .footer-copyright {
+        margin-left: 0;
+    }
+    .phone-img img{
+        height: 13px;
+        width: 13px;
+    }
+    .mail-img img{
+        width: 13px;
+        height: 8px;
+    }
 
 }
 
@@ -936,7 +1133,87 @@
 
 	.additional-text {
 		font-size: 10px;
-	}    
+	}   
+    
+    /*BEFOOTER*/
+    .footer_head{
+        font-size: 26px;
+        padding-top: 62px;
+    }
+    /*.container__befooter{
+        max-height: 400px;
+    }*/
+    .price-info{
+        font-size: 12px;
+    }
+    .price-text2{
+        margin-right: 0;
+    }
+
+    .price-text1,.price-text2{
+        width: 50%;
+    }
+    .price{
+        font-size: 37px;
+    }
+    .info-header{
+        font-size: 12px;
+    }
+    .text{
+        font-size: 10px;
+    }
+
+
+
+
+    /*FOOTER*/ 
+    .container__footer{
+        max-height: 280px;
+    }
+    .footer-logo img{
+        margin: 0;
+        padding: 0;
+        width: 53.59px;
+        height: 31.69px;
+    }
+    .footer-logo{
+        margin-top: 23.3px;
+        margin-bottom: 14px;
+    }
+
+    .footer-left {
+        margin-bottom: 50px;
+    }
+
+    .footer-social img{
+        height: 16px;
+        width: 16px;
+        margin-bottom: 0%;
+    }
+    .footer-logo{
+        height: 32px;
+        width: 54;
+    }
+    .last-copyright{
+        font-size: 10px;
+    }
+    .phone-number, .mail{
+        font-size: 12px;
+        width: 150px;
+    }
+    .footer-both{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 49px;
+    }
+    .phone-img img{
+        height: 13px;
+        width: 13px;
+    }
+    .mail-img img{
+        width: 13px;
+        height: 8px;
+    }
 
 }
 
