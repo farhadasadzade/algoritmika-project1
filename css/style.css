@@ -8,497 +8,123 @@
     margin: 0 auto;
 }
 
-.format{
-    background-color: #ffffff;
-}
-
-.format_content {
-    padding: 81px 37px 120px;
-}
-
-.format-title{
-    margin-bottom: 137px;
-    font-family: "Roboto Slab" ,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    margin-bottom: 95px;
-}
-
-.format-items{
+.small-items{
     display: flex;
-    flex-wrap: wrap;
-}
-
-.format-item{
-    margin-bottom: 10px;
-}
-
-.format-item:first-child {
-    margin-right: 122px;
-}
-
-.format-item:nth-child(2) {
-    margin-right: 113px;
-}
-
-.format-item-title{
-    font-family: "Roboto" ,sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 25px;
-    line-height: 130%;
-    color:  #1E4681;
-    margin-bottom: 15px;
-}
-
-.format-item-text{
-    font-family: "Roboto" , sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 130%;
-    width: 250px;
-}
-
-.learn{
-    background-color: #ffffff;
-}
-
-.learn-content {
-    padding: 120px 37px;
-}
-
-.learn-title{
-    font-family: "Roboto Slab" ,serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    margin-bottom: 72px;
-}
-
-.learn-list{
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 150%;
-    list-style: disc;
-    padding-left: 25px;
-    width: 60%;
-}
-
-.program__content {
-    padding: 124px 0;
-}
-
-.program-title {
-    font-family: 'Roboto Slab', serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    margin-bottom: 95px;
-    padding: 0 37px;
-}
-
-.program-cards {    
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 399px);
-    justify-content: space-around;
-    justify-items: center;
-    align-content: space-between;
     align-items: center;
-}
-
-.program-card {
-    width: 399px;
-    height: 328px;
-    box-sizing: border-box;
-    background: #FFFFFF;
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    margin-bottom: 41px;
-}
-
-.card-img {
-    width: 399px;
-    height: 160px;
-}
-
-.card-img img {
-    width: 399px;
-    height: 160px;
-}
-
-.card-description {
-    padding: 11px 20px 23px;
-    height: 168px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.card-title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.card-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.review {
-    background-color: #EFEFEF;
-}
-
-.review__content {
-    padding: 91px 37px 111px 18px;
-}
-
-.review-title {
-    font-family: 'Roboto Slab', serif;
+    margin-right: 25px;
+    margin-left: 37px;
+    font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    margin-bottom: 72px;
-    padding-left: 19px;
-}
-
-.reviews {
-    padding: 25px 0 25px 20px;
-    overflow-x: auto;
-    display: inline-block;
-    width: 100%;
-    white-space:nowrap;
-}
-
-.review-block {
-    box-sizing: border-box;
-    padding: 40px 25px 29px;
-    width: 791px;
-    height: 451px;
-    background-color: #ffffff;
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 30px;
-    display: inline-block;
-    margin-right: 20px;
-}
-
-.review-text {
-    white-space: normal;
-    padding: 0 20px;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 400;
+    font-weight: normal;
     font-size: 20px;
-    line-height: 150%;
+    line-height: 115%;
     color: #000000;
 }
+.icon{
+    margin-right: 13px;
+    width: 20px;
+    height: 22px;
+    
 
-.reviewer-block {
+}
+.small-image{
+    width: 20px;
+    height: 22px;
+
+}
+.king{
     display: flex;
-    margin-top: 20px;
-    align-items: center;
+    margin-left: 37px;
+    
 }
-
-.reviewer-img {
-    width: 190px;
-    height: 169px;
-    margin-right: 30px;
+.box{
+    margin-bottom: 94px;
+    margin-top: 21px;
+    margin-left: 37px;
 }
-
-.reviewer-title {
-    font-family: 'Roboto Slab', serif;
+.header{
+    font-family: "Roboto Slab",serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 80px;
     line-height: 101.38%;
-    margin-bottom: 30px;
-}
-
-.reviewer-link img {
-    width: 32px;
-    height: 31px;
-}
-
-/* SCROLLBAR */
-.reviews::-webkit-scrollbar-track
-{
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #F5F5F5;
-}
-
-.reviews::-webkit-scrollbar
-{
-	height: 6px;
-	background-color: #F5F5F5;
-}
-
-.reviews::-webkit-scrollbar-thumb
-{
-	background-color: #000000;
-}
-
-@media screen and (max-width: 835px) {
-
-    .container {
-        padding: 0 47px;
-    }
-
-    .format_content {
-        padding: 47px 23px 72px;
-    }
-
-    .format-title{
-        font-size: 32px;
-        margin-bottom: 72px;
-    }
+    margin-left: 38px;
+    margin-right: 140px;
     
-    .format-item:first-child {
-        margin-right: 46px;
-    }
-    
-    .format-item:nth-child(2) {
-        margin-right: 51px;
-    }
-
-    .format-item-title{
-        font-size: 15px;
-        margin-bottom: 8px;
-    }
-
-    .format-item-text{
-        width: 154px;
-        font-size: 11px;
-
-    }
-
-    .format-items{
-        flex-wrap: wrap;
-    }
-
-    .learn-content {
-        padding: 72px 23px;
-    }
-
-    .learn-title{
-        font-size: 32px;
-        margin-bottom: 34px; 
-    }
-
-    .learn-list{
-        font-size: 14px;
-        width: 92%;
-        padding-left: 20px;
-    }
-
-    .program__content {
-        padding: 70px 0 50px 0;
-    }
-    
-    .program-title {
-        font-size: 32px;
-        margin-bottom: 75px;
-        padding-left: 23px;
-    }
-
-    .program-cards {
-        grid-template-columns: repeat(auto-fill, 231px);
-        justify-content: space-around;
-    }
-
-    .program-card {
-        width: 231px;
-        height: 190px;
-        margin-bottom: 24px;
-        border-radius: 18px;
-    }
-
-    .card-img {
-        width: 231px;
-        height: 92px;
-    }
-
-    .card-img img{
-        width: 231px;
-        height: 92px;
-    }
-
-    .card-title {
-        font-size: 17px;
-    }
-
-    .card-description {
-        height: 97px;
-        padding: 8px 11px 13px;
-    }
-
-    .card-text {
-        font-size: 14px;
-    }
-
-    .review__content {
-        padding: 52px 23px 64px;
-    }
-
-    .review-title {
-        font-size: 32px;
-        margin-bottom: 40px;
-    }
-
-    .review-block {
-        width: 458px;
-        height: 261px;
-        padding: 23px 6px 16px;
-    }
-
-    .review-text {
-        font-size: 12px;
-    }
-
-    .reviewer-img {
-        width: 110px;
-        height: 98px;
-    }
-
-    .reviewer-title {
-        font-size: 17px;
-    }
-
-    .reviewer-link img{
-        width: 18px;
-        height: 18px;
-    }
+}
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 29px;
+    margin-bottom: 87px;
 
 }
+.para{
+    font-family:" Roboto",sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 150%;
+margin-left: 38px;
 
-@media screen and (max-width: 376px) {
-
-    .container {
-        padding: 0 34px;
-    }
-
-    .format-title{
-        font-size: 26px;
-        margin-bottom: 33px;
-    }
-
-    .format-items{
-        flex-direction: column;
-    }
-
-    .format-item{
-        margin-bottom: 20px;
-    }
-
-    .format-item-title{
-        font-size: 12px;
-        margin-bottom: 7px;
-    }
-
-    .format-item-text{
-        font-size: 10px;
-        width: 180px;
-    }
-
-    .learn-title{
-        font-size: 26px;
-        margin-bottom: 27px;
-    }
-
-    .learn-list{
-        font-size: 12px;
-        width: 92%;
-        padding-left: 15px;
-    }
-
-    .program__content {
-        padding: 42px 0 47px 0;
-    }
+}
+.box2{
+    background: #1E4681;
+    border-radius: 5px;
+    height: 200px;
+    width: 483px;
+    color: #FFF;
+    margin-top: 87.62px;
+    margin-left: 409.39px;
     
-    .program-title {
-        font-size: 26px;
-        margin-bottom: 52px;
+
+
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 130%;
+/* or 32px */
+
+
+
+
+color: #FFFFFF;
+
+}
+.author{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    /* or 26px */
+    
+    text-align: right;
+    
+    color: #FFFFFF;
+    position:sticky;
+width: 280.5px;
+height: 45.64px;
+left: 594px;
+top: 821px;
+
     }
 
-    .program-cards {
-        grid-template-columns: repeat(auto-fill, 186px);
-    }
+.tk{
+    padding-left: 26.03;
+padding-top: 19.26;
+padding-right: 27.02;
+padding-bottom: 67.74;
+}
 
-    .program-card {
-        width: 186px;
-        height: 153px;
-        margin-bottom: 24px;
-        border-radius: 14px;
-    }
+.ellipse{
+    border-radius: 50%;
+    
 
-    .card-img {
-        width: 186px;
-        height: 74px;
-    }
 
-    .card-img img{
-        width: 186px;
-        height: 74px;
-    }
 
-    .card-title {
-        font-size: 14px;
-    }
 
-    .card-description {
-        height: 78px;
-        padding: 5px 9px 10px 6px;
-    }
-
-    .card-text {
-        font-size: 12px;
-    }
-
-    .review__content {
-        padding: 17px 0 28px;
-    }
-
-    .review-title {
-        padding-left: 0;
-        font-size: 26px;
-        margin-bottom: 28px;
-    }
-
-    .review-block {
-        width: 308px;
-        height: 248px;
-        padding: 18px 21px 13px;
-    }
-
-    .review-text {
-        display: block;
-        font-size: 10px;
-        padding: 0;
-    }
-
-    .reviewer-img {
-        width: 80px;
-        height: 84px;
-        margin-right: 14px;
-    }
-
-    .reviewer-title {
-        font-size: 14px;
-    }
-
-    .reviewer-link img{
-        width: 15px;
-        height: 15px;
-    }
+background: #EFEFEF;
 
 }
