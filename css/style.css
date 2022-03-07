@@ -8,6 +8,106 @@
     margin: 0 auto;
 }
 
+.small-items{
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 115%;
+    color: #000000;
+}
+
+.small-image{
+    margin-right: 10px;
+    width: 21px;
+    height: 22px;
+}
+
+.king{
+    display: flex;
+    padding-left: 37px;
+}
+
+.box__content{
+    margin-bottom: 97px;
+    margin-top: 21px;
+    padding-left: 37px;
+}
+
+.header{
+    font-family: "Roboto Slab",serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 101.38%;
+    margin-bottom: 30px;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    padding: 29px 37px 0;
+    margin-bottom: 87px;
+}
+
+.para{
+    font-family:" Roboto",sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.box2{
+    box-sizing: border-box;
+    background: #1E4681;
+    border-radius: 5px;
+    height: 200px;
+    width: 483px;
+    color: #FFF;
+    font-family: "Roboto Slab", serif;
+    padding: 20px 27px 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 130%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box2-big {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 85px;
+}
+
+.author{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.ellipse{
+    position: relative;
+}
+
+.shadow {
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+
 .format{
     background-color: #ffffff;
 }
@@ -254,6 +354,71 @@
         padding: 0 47px;
     }
 
+    .boximg {
+        width: 65px;
+        height: 38px;
+    }
+
+    .small-image{
+        margin-right: 6px;
+        width: 13px;
+        height: 12px;
+    }
+
+    .king {
+        padding-left: 23px;
+    }
+
+    .header {
+        font-size: 46px;
+    }
+
+    .para {
+        font-size: 12px;
+    }
+
+    .man {
+        width: 176px;
+        height: 206px;
+    }
+
+    .shadow {
+        width: 159px;
+        height: 24px;
+    }
+
+    .box2 {
+        width: 280px;
+        height: 116px;
+        padding: 11px 15px;
+    }
+
+    .tk {
+        font-size: 14px;
+        line-height: 18.2px;
+    }
+
+    .author {
+        font-size: 12px;
+    }
+
+    .box2-big {
+        padding-bottom: 50px;
+    }
+
+    .box__content {
+        margin-bottom: 58px;
+        padding-left: 23px;
+    }
+
+    .list {
+        font-size: 12px;
+    }
+
+    .intro {
+        padding: 7px 23px;
+    }
+
     .format_content {
         padding: 47px 23px 72px;
     }
@@ -385,6 +550,15 @@
 
     .container {
         padding: 0 34px;
+    }
+
+    .boximg {
+        width: 52px;
+        height: 31px;
+    }
+
+    .box__content {
+        padding-left: 0;
     }
 
     .format-title{
