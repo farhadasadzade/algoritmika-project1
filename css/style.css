@@ -1245,6 +1245,7 @@ footer {
 
   .content-intro {
     flex-wrap: wrap;
+    justify-content: center;
   }
 
   .intro-text {
